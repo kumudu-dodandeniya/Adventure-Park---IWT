@@ -1,0 +1,347 @@
+/* web page boddy */
+body{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	height:500px;
+    background-image:url('../image/background.jpg');
+}
+	
+
+
+/*Header section*/
+.head{
+	width: 100%;
+	display: block;
+    padding: 0;
+    margin: auto;
+	background-image: url('http://localhost/iwt/image/Header/header.jpg');
+	
+}
+header{
+	display: block;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+	height:270px;
+}
+header h1{
+	color:white;
+	font-size:72px;
+	font-family:arial;
+	height: 45px;
+}
+header h2{
+	color: white;
+    font-size: 30px;
+    font-family:arial;
+}
+/*Register and login button*/
+
+.button{
+	width:100%;
+	text-align:right;
+	padding-top:13px;
+}
+.button1 {
+	background-color:#333;
+	padding:10px;
+	font-size:16px;
+	margin:0;
+	text-align:center;
+	border-radius:6px;
+	cursor:pointer;
+	padding-left:22px;
+	padding-right:30px;
+	color:white;
+}
+
+.button1:hover{
+	background-color:#a3ada5;
+}
+
+/*Navigation bar*/
+.menu{
+	width:100%;
+	background-color:#333;
+	height:60px;
+	padding:0;
+	margin:0;
+	font-size:15px;
+	font-family:arial;
+}
+ul.menu{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li.menu{
+	float:left;
+	text-align:center;
+	width:13%;
+}
+li a{
+	color:white;
+	display:block;
+	text-align:center;
+	padding:20px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#a3ada5;
+}
+li a:active {
+	background-color:#a3ada5;
+}
+
+/*footer*/
+.footer{
+	background-color:#323A45;
+	height:60%;
+	width:100%;
+	padding-bottom:0;
+	padding-top:10px;
+	margin-top:10px;
+	text-align:center;
+	color:white;
+	border-top:3px solid darkgray;
+	position:absolute;
+	display:flex;
+}
+
+.About{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	font-family:arial
+}
+.open {
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+}
+.link{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+	width:20%;
+}
+.contact{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+	width:25%
+}
+a.link{
+	float:left;
+	color:white;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	width:94%;
+}
+ a:hover{
+	background-color:#a3ada5;
+}
+.map{
+float:left;
+padding-left:50px;
+padding-right:50px;
+}
+
+/*footer bottom*/
+.footer-bottom{
+	background:#343a40;
+	color:#292F38;
+	line-height:15px;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	padding-top:20px;
+	position:absolute;
+	border-top:1px solid gray;
+	padding-bottom:10px;
+}
+.payment{
+	float:left;
+	padding-left:40px;
+	padding-top:10px;
+}
+.img{
+	width:40px; 
+	height:30px
+}
+.row{
+	width:100%;
+	
+}
+
+.social{
+	margin:20px 0 0 0;
+	float:right;
+	padding-right:40px;
+}
+.social a{
+	padding:0 2px;
+}
+.social a i{
+	height:40px;
+	width:40px;
+	background:#a9a9a9;
+	text-align:center;
+	font-size:18px;
+	border-radius:5px;
+	line-height:40px;
+	color:black;
+}
+.social a i:hover{
+	background:#aa2429;
+}
+
+
+
+.btn{
+	color:white;
+	background-color:blue;
+	padding: 10px 18px;
+	width: 300px;
+	margin-left: 80px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+.btn1{
+	color:white;
+	background-color:red;
+	padding: 10px 18px;
+	width: 300px;
+	margin-left: 80px;
+	font-size: 20px;
+	border-radius: 6px;
+}
+
+
+.box {
+	position:center;
+	width:450px;
+	border:2px solid blue;
+	padding:50px;
+	margin:5px;
+	border-radius:10px;
+	background-color: #f8f7f7;
+	margin-left: 32%;
+}
+
+#text{
+	text-align:left;
+	font-size: 25;
+}
+	
+
+	
+.bx {
+     
+	background-color:white;
+	width:450px;
+    border:2px solid blue;
+    padding:50px;
+    margin:5px;
+    border-radius:10px;
+	}
+	
+input[type=text],input[type=password]{
+		width:100%;
+		padding:12px 5px;
+		border:none;
+		border-radius:5px;
+		outline:none;
+		margin:5px;
+		font-size:15px;
+		box-sizing:border-box;
+		border:solid black;
+	
+	}
+		  
+p.error{
+	background-color: red;
+	color: white;
+	padding: 10px;
+	width: 45%;
+}
+
+	
+
+
+	.class{
+	border-radius:30px;
+	position:center;
+	}
+		
+
+	
+	
+.fieldset1 {
+	background-color:red;
+	}
+	
+.fieldset2 {
+	background-image: url('http://localhost/iwt/image/Header/header.jpg');
+ 
+ 
+	}
+	
+	
+	
+	
+.legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

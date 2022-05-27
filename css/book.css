@@ -1,0 +1,399 @@
+/* web page boddy */
+body{
+	margin:0;
+	padding:0;
+	background-size: cover;
+	height:500px;
+	background-color:#5625;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+/*Header section*/
+.head{
+	width: 100%;
+	display: block;
+    padding: 0;
+    margin: auto;
+	background-image: url('http://localhost/iwt/image/Header/header.jpg');
+	
+}
+header{
+	display: block;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+	height:270px;
+}
+header h1{
+	color:white;
+	font-size:72px;
+	font-family:arial;
+	height: 45px;
+}
+header h2{
+	color: white;
+    font-size: 30px;
+    font-family:arial;
+}
+
+/*Register and login button*/
+
+.button{
+	width:100%;
+	text-align:right;
+	padding-top:13px;
+}
+.button1 {
+	background-color:#333;
+	padding:10px;
+	font-size:16px;
+	margin:0;
+	text-align:center;
+	border-radius:6px;
+	cursor:pointer;
+	padding-left:22px;
+	padding-right:30px;
+	color:white;
+}
+
+.button1:hover{
+	background-color:#a3ada5;
+}
+
+
+/*Navigation bar*/
+.menu{
+	width:100%;
+	background-color:#333;
+	height:60px;
+	padding:0;
+	margin:0;
+	font-size:15px;
+	font-family:arial;
+}
+ul.menu{
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li.menu{
+	float:left;
+	text-align:center;
+	width:13%;
+}
+li a{
+	color:white;
+	display:block;
+	text-align:center;
+	padding:20px 16px;
+	text-decoration:none;
+}
+li a:hover{
+	background-color:#a3ada5;
+}
+li a:active {
+	background-color:#a3ada5;
+}
+.footer{
+	background-color:#323A45;
+	height:60%;
+	width:100%;
+	padding-bottom:100px;
+	padding-top:10px;
+	margin-top:0;
+	text-align:center;
+	color:white;
+	border-top:3px solid darkgray;
+	position:relative;
+	display:flex;
+}
+
+.About{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	font-family:arial
+}
+.open {
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+}
+.link{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+	width:20%;
+}
+.contact{
+	float:left;
+	color:white;
+	text-align:left;
+	padding-left:50px;
+	padding-right:50px;
+	font-family:arial;
+	width:25%
+}
+a.link{
+	float:left;
+	color:white;
+	text-decoration:none;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:6px;
+	width:94%;
+}
+ a:hover{
+	background-color:#a3ada5;
+}
+.map{
+float:left;
+padding-left:50px;
+padding-right:50px;
+}
+.footer-bottom{
+	background:#343a40;
+	color:#292F38;
+	line-height:15px;
+	width:100%;
+	bottom:-90px;
+	left:0px;
+	padding-top:20px;
+	position:absolute;
+	border-top:1px solid gray;
+	padding-bottom:10px;
+}
+.payment{
+	float:left;
+	padding-left:40px;
+	padding-top:10px;
+}
+.img{
+	width:40px; 
+	height:30px
+}
+.row{
+	width:100%;
+	
+}
+
+.social{
+	margin:20px 0 0 0;
+	float:right;
+	padding-right:40px;
+}
+.social a{
+	padding:0 2px;
+}
+.social a i{
+	height:40px;
+	width:40px;
+	background:#a9a9a9;
+	text-align:center;
+	font-size:18px;
+	border-radius:5px;
+	line-height:40px;
+	color:black;
+}
+.social a i:hover{
+	background:#aa2429;
+}
+.column {
+  float: left;
+  width: 20%;
+  padding: 60px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intro {
+font-weight: bold;
+}
+
+
+.container {
+  position: relative;
+  width: 300px;
+}
+
+/* Make the image responsive */
+.container img {
+  width: 300px;
+  height: 200px;
+}
+
+.container2 img {
+  width: 300px;
+  
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: green;
+  color: white;
+  font-size: 11px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color:black;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
+
+  
+.container{
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-family: 'Roboto Condensed', sans-serif;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 1200px)
+{
+  .container{
+    max-width: 1140px;
+  }
+}
+.d-flex{
+  display: flex;
+  flex-direction: row;
+  background: #f6f6f6;
+  border-radius: 0 0 5px 5px;
+  padding: 25px;
+}
+form{
+  flex: 4;
+}
+.Yorder{
+  flex: 2;
+}
+.title{
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0, #5195A8), color-stop(100, #70EAFF));
+  background: -moz-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: -ms-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: -o-linear-gradient(top left, #5195A8 0%, #70EAFF 100%);
+  background: linear-gradient(to bottom right, #5195A8 0%, #70EAFF 100%);
+  border-radius:5px 5px 0 0 ;
+  padding: 20px;
+  color: #f6f6f6;
+}
+h2{
+  margin: 0;
+  padding-left: 15px; 
+}
+.required{
+  color: red;
+}
+label, table{
+  display: block;
+  margin: 15px;
+}
+label>span{
+  float: left;
+  width: 25%;
+  margin-top: 12px;
+  padding-right: 10px;
+}
+input[type="text"], input[type="tel"], input[type="email"], select
+{
+  width: 70%;
+  height: 30px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+  border: 1px solid #dadada;
+  color: #888;
+}
+select{
+  width: 72%;
+  height: 45px;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+.Yorder{
+  margin-top: 15px;
+  height: 600px;
+  padding: 20px;
+  border: 1px solid #dadada;
+}
+table{
+  margin: 0;
+  padding: 0;
+}
+th{
+  border-bottom: 1px solid #dadada;
+  padding: 10px 0;
+}
+tr>td:nth-child(1){
+  text-align: left;
+  color: #2d2d2a;
+}
+tr>td:nth-child(2){
+  text-align: right;
+  color: #52ad9c;
+}
+td{
+  border-bottom: 1px solid #dadada;
+  padding: 25px 25px 25px 0;
+}
+
+
+.Yorder>div{
+  padding: 15px 0; 
+}
+
+button{
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background: #52ad9c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+button:hover{
+  cursor: pointer;
+  background: #428a7d;
+}
+
+.container {
+    text-align: center;
+    width: [width of img];
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+}
+
+input {
+ display:inline;   
+}
